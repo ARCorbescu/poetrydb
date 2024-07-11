@@ -12,7 +12,7 @@ def test_get_poems_by_invalid_author(invalid_author):
     Test the /author endpoint of the PoetryDB API using invalid values for the author.
 
     Steps:
-    1. Send a GET request to the /author,title endpoint to retrieve poems by a specific author and title.
+    1. Send a GET request to the /author endpoint using invalid values for the author.
     2. Verify the response status code is 405.
     3. Verify the response gives a reson for 405
 
